@@ -1,0 +1,120 @@
+.App {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto 1rem;
+	max-width: 120px;
+	height: auto;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 2rem;
+}
+
+h2 {
+	color: #444;
+	border-bottom: 2px solid #007bff;
+	padding-bottom: 0.5rem;
+	margin-top: 2rem;
+}
+
+/* Form Styles */
+.quote-form {
+	background-color: #f8f9fa;
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+	margin-bottom: 1rem;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+	color: #333;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 1rem;
+	box-sizing: border-box;
+	transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+	outline: none;
+	border-color: #007bff;
+	box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.quote-form button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.quote-form button:hover {
+	background-color: #0056b3;
+}
+
+.quote-form button:active {
+	transform: translateY(1px);
+}
+
+/* Filter Section */
+.filter-section {
+	margin-bottom: 1.5rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.filter-section label {
+	font-weight: 500;
+	color: #555;
+}
+
+.filter-section select {
+	padding: 0.5rem 1rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 1rem;
+	background-color: white;
+	cursor: pointer;
+}
+
+.filter-section select:focus {
+	outline: none;
+	border-color: #007bff;
+}
+
+/* Quotes Container */
+.quotes-container {
+	margin-top: 1rem;
+}
+
+.no-quotes {
+	text-align: center;
+	color: #6c757d;
+	font-style: italic;
+	padding: 2rem;
+	background-color: #f8f9fa;
+	border-radius: 8px;
+}
